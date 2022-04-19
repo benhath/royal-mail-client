@@ -170,7 +170,7 @@ class TokenApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\TokenResponse',
                         $e->getResponseHeaders()
                     );

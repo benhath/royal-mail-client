@@ -170,7 +170,7 @@ class PackagingApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PackagingResponse',
                         $e->getResponseHeaders()
                     );
@@ -178,7 +178,7 @@ class PackagingApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PackagingResponse',
                         $e->getResponseHeaders()
                     );
@@ -462,7 +462,7 @@ class PackagingApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PackagingResponse',
                         $e->getResponseHeaders()
                     );
@@ -751,7 +751,7 @@ class PackagingApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\Packaging',
                         $e->getResponseHeaders()
                     );
@@ -1038,7 +1038,7 @@ class PackagingApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\Packaging[]',
                         $e->getResponseHeaders()
                     );
@@ -1312,7 +1312,7 @@ class PackagingApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PackagingResponse',
                         $e->getResponseHeaders()
                     );
@@ -1320,7 +1320,7 @@ class PackagingApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PackagingResponse',
                         $e->getResponseHeaders()
                     );

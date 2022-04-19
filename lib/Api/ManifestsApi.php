@@ -170,7 +170,7 @@ class ManifestsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ManifestResponse',
                         $e->getResponseHeaders()
                     );
@@ -178,7 +178,7 @@ class ManifestsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ManifestResponse',
                         $e->getResponseHeaders()
                     );
@@ -462,7 +462,7 @@ class ManifestsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ManifestResponse',
                         $e->getResponseHeaders()
                     );
@@ -470,7 +470,7 @@ class ManifestsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ManifestResponse',
                         $e->getResponseHeaders()
                     );
@@ -754,7 +754,7 @@ class ManifestsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ManifestResponse',
                         $e->getResponseHeaders()
                     );
@@ -762,7 +762,7 @@ class ManifestsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ManifestResponse',
                         $e->getResponseHeaders()
                     );

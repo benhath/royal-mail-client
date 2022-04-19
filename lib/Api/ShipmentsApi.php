@@ -170,7 +170,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsCancelResponse',
                         $e->getResponseHeaders()
                     );
@@ -178,7 +178,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsCancelResponse',
                         $e->getResponseHeaders()
                     );
@@ -186,7 +186,7 @@ class ShipmentsApi
                     break;
                 case 404:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsCancelResponse',
                         $e->getResponseHeaders()
                     );
@@ -470,7 +470,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentCreateResponse',
                         $e->getResponseHeaders()
                     );
@@ -478,7 +478,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentCreateResponse',
                         $e->getResponseHeaders()
                     );
@@ -762,7 +762,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsDeferResponse',
                         $e->getResponseHeaders()
                     );
@@ -770,7 +770,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsDeferResponse',
                         $e->getResponseHeaders()
                     );
@@ -778,7 +778,7 @@ class ShipmentsApi
                     break;
                 case 404:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsDeferResponse',
                         $e->getResponseHeaders()
                     );
@@ -1062,7 +1062,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsHoldResponse',
                         $e->getResponseHeaders()
                     );
@@ -1070,7 +1070,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsHoldResponse',
                         $e->getResponseHeaders()
                     );
@@ -1078,7 +1078,7 @@ class ShipmentsApi
                     break;
                 case 404:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsHoldResponse',
                         $e->getResponseHeaders()
                     );
@@ -1364,7 +1364,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PrintDocumentResponse',
                         $e->getResponseHeaders()
                     );
@@ -1372,7 +1372,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PrintDocumentResponse',
                         $e->getResponseHeaders()
                     );
@@ -1380,7 +1380,7 @@ class ShipmentsApi
                     break;
                 case 404:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PrintDocumentResponse',
                         $e->getResponseHeaders()
                     );
@@ -1690,7 +1690,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PrintLabelResponse',
                         $e->getResponseHeaders()
                     );
@@ -1698,7 +1698,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PrintLabelResponse',
                         $e->getResponseHeaders()
                     );
@@ -1706,7 +1706,7 @@ class ShipmentsApi
                     break;
                 case 404:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\PrintLabelResponse',
                         $e->getResponseHeaders()
                     );
@@ -2014,7 +2014,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsReleaseResponse',
                         $e->getResponseHeaders()
                     );
@@ -2022,7 +2022,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsReleaseResponse',
                         $e->getResponseHeaders()
                     );
@@ -2030,7 +2030,7 @@ class ShipmentsApi
                     break;
                 case 404:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ShipmentsReleaseResponse',
                         $e->getResponseHeaders()
                     );
@@ -2314,7 +2314,7 @@ class ShipmentsApi
             switch ($e->getCode()) {
                 case 200:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ServiceAvailabilityResponse',
                         $e->getResponseHeaders()
                     );
@@ -2322,7 +2322,7 @@ class ShipmentsApi
                     break;
                 case 400:
                     $data = ObjectSerializer::deserialize(
-                        $e->getResponseBody(),
+                        json_decode($e->getResponseBody()),
                         '\Swagger\Client\Model\ServiceAvailabilityResponse',
                         $e->getResponseHeaders()
                     );
