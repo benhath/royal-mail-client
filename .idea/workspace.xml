@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f585103-7951-46aa-9b9e-5f7666daee4d" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/config/royal-mail-3.0.20-with-token.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/AddressesApi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/ItemsApi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/ManifestsApi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/PackagingApi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/ShipmentsApi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Api/TokenApi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/Address.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/AddressResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CreateShipmentCustomsInformation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CreateShipmentDestination.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CreateShipmentServiceOptions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CreateShipmentShipment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CreateShipmentShipmentInformation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/CreateShipmentShipmentPackage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ErrorDetail.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/Item.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ItemResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/Manifest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ManifestCarrierCodesRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ManifestRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ManifestResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ManifestServiceCodesRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/PackageResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/Packaging.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/PackagingResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/PrintDocumentRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/PrintDocumentResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/PrintLabelRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/PrintLabelResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/Routing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityDestination.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityFormat.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityOption.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityServiceOptions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityShipment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityShipmentInformation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ServiceAvailabilityShipmentPackage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentCancelRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentCreateResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentDeferRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentHoldRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentItem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentsCancelResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentsDeferResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentsHoldResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentsReleaseRequest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/ShipmentsReleaseResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/Shipper.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Model/TokenResponse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_push.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/AddressesApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/ItemsApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/ManifestsApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/PackagingApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/ShipmentsApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Api/TokenApi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ApiException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Configuration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/HeaderSelector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/Address.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/AddressResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CreateShipmentCustomsInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CreateShipmentDestination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CreateShipmentServiceOptions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CreateShipmentShipment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CreateShipmentShipmentInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/CreateShipmentShipmentPackage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ErrorDetail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/Item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ItemResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/Manifest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ManifestCarrierCodesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ManifestRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ManifestResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ManifestServiceCodesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ModelInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/PackageResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/Packaging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/PackagingResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/PrintDocumentRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/PrintDocumentResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/PrintLabelRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/PrintLabelResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/Routing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityDestination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityFormat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityOption.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityServiceOptions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityShipment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityShipmentInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ServiceAvailabilityShipmentPackage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentCancelRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentCreateResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentDeferRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentHoldRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentItem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentsCancelResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentsDeferResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentsHoldResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentsReleaseRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/ShipmentsReleaseResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/Shipper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Model/TokenResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ObjectSerializer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Api/AddressesApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Api/ItemsApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Api/ManifestsApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Api/PackagingApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Api/ShipmentsApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Api/TokenApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/AddressResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/AddressTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/CreateShipmentCustomsInformationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/CreateShipmentDestinationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/CreateShipmentServiceOptionsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/CreateShipmentShipmentInformationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/CreateShipmentShipmentPackageTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/CreateShipmentShipmentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ErrorDetailTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ItemResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ItemTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ManifestCarrierCodesRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ManifestRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ManifestResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ManifestServiceCodesRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ManifestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/PackageResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/PackagingResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/PackagingTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/PrintDocumentRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/PrintDocumentResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/PrintLabelRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/PrintLabelResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/RoutingTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityDestinationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityFormatTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityOptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityServiceOptionsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityShipmentInformationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityShipmentPackageTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ServiceAvailabilityShipmentTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentCancelRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentCreateResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentDeferRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentHoldRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentItemTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentsCancelResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentsDeferResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentsHoldResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentsReleaseRequestTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipmentsReleaseResponseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/ShipperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Model/TokenResponseTest.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27kiPjTwjTad2IybUGjmkqMS9Jy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/benhathaway/Development/royal-mail-client/config",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Use Guzzle 7" />
+    <MESSAGE value="Use Guzzle 7.3.0" />
+    <MESSAGE value="Delete all" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
