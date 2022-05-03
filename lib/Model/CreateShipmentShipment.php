@@ -372,7 +372,7 @@ class CreateShipmentShipment implements ModelInterface, ArrayAccess
      *
      * @return void
      */
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void 
     {
         unset($this->container[$offset]);
     }
